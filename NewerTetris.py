@@ -318,11 +318,11 @@ class Tetris:
         #customization menu
         self.customization_menu = False
         self.customization_class = self.Customize_menu(self, self.colorlist)
-
+    
         #Ads
         self.playingAD = False
         self.ad_rect = pygame.Rect(self.width/2 - 104, self.height/2 + 100, 208, 40)
-        self.Ad_path = r'C:\Users\Sikla005\OneDrive - Osloskolen\Ullern\VG1\Programering\Tetris Ads' if self.monitor_size == 720 else r'C:\Users\Simen\OneDrive - Osloskolen\Ullern\VG1\Programering\Tetris Ads'
+        self.Ad_path = 'Add filepath here'
         self.Ad_file_names = self.list_files_in_directory(self.Ad_path)
         self.Ad = None
 
